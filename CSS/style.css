@@ -318,7 +318,7 @@
     width: 80vw;
     height: auto;
     /* left: 12.5rem; */
-    left: 2rem;
+    left: 0rem;
     border-radius: 20px;
     background: #f5e2e2;
 
@@ -327,7 +327,7 @@
     }
 
     .form{
-        width: 70vw;
+        width: 80vw;
        height: auto;
         margin: auto;
         /* border: 3px solid red; */
@@ -344,7 +344,7 @@
         }
     }
 
-  }
+    }
 }
 
 /* section area  */

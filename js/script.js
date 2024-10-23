@@ -23,13 +23,12 @@ function my_btn(params) {
 
 const Icon = document.querySelector(".icon");
 
-const form = document.querySelector(".parant-form");
+let form = document.querySelector(".parant-form");
 
 
 const cross_icon = document.querySelector(".cross-icon");
 
-for (let i = 0; i < 1; i++) {
-
+function welcome (){
     Icon.addEventListener("click", () => {
         form.style.display = "block";
         
@@ -52,8 +51,10 @@ const login_form = document.querySelector(".login-form");
 
 const registration_form = document.querySelector(".registration-form");
 
+const cross_icon2 = document.querySelector(".cross-icon2")
 
-for (let i = 0; i < 1; i++) {
+
+function weldone() {
     
     register.addEventListener("click", () =>{
         registration_form.style.display = "block";
@@ -64,8 +65,8 @@ for (let i = 0; i < 1; i++) {
         registration_form.style.display = "none";
         login_form.style.display = "block"
     })
-    
-    cross_icon.addEventListener("click", () => {
+
+    cross_icon2.addEventListener("click", () => {
         registration_form.style.display = "none";
     })
 }
